@@ -1,0 +1,35 @@
+#todo-section {
+    display: flex;
+    min-height: 45vh;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #4B4B4B;
+}
+
+#todo-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 142px;
+}
+
+#todo-title-container input:focus {
+    outline: none;
+}
+
+#todo-title-container input {
+    color: #E2E2E2;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: none;
+    border: none;
+}

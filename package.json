@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "play-dl": "^1.9.6",
+    "youtube-audio-stream": "^0.3.61"
+  }
+}

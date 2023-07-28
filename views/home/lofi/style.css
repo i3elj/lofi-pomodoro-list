@@ -1,0 +1,55 @@
+#lofi-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 12px;
+    border-radius: 12px;
+    position: sticky;
+    bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #4B4B4B;
+}
+
+#lofi-section img {
+    border-radius: 12px;
+}
+
+#lofi-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#lofi-track {
+    color: #E2E2E2;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#lofi-track-title {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#lofi-info button {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#lofi-track,
+#lofi-track-title {
+    font-family: Roboto Condensed;
+}

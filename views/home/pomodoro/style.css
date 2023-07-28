@@ -1,0 +1,105 @@
+#pomodoro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+#pomodoro-section h1 {
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pomodoro-timer {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+
+#pomodoro-timer #settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#pomodoro-timer-timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 4px;
+}
+
+#timer-title {
+    color: #E2E2E2;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.174px;
+    text-align: end;
+    width: 180px;
+    /* 168.975% */
+}
+
+#timer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7.745px;
+    width: 180px;
+}
+
+#time {
+    color: #fff;
+    font-family: Russo One;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    min-height: 38px;
+    /* 88.511% */
+}
+
+input[name="progress-bar"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    outline: none;
+    border-radius: 15px;
+    height: 2px;
+    background: #757575;
+}
+
+input[name="progress-bar"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    width: 6px;
+    background-color: #D6D6D6;
+    border-radius: 50%;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+input[name="progress-bar"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #D6D6D6;
+    border-radius: 50%;
+    border: none;
+}
+
+#media-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+
